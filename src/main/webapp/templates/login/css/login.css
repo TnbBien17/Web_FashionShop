@@ -1,0 +1,278 @@
+.container_body{
+    /*background-image: linear-gradient(to right, #6bb88f , #392cc8, #ee69f3, #f26649);*/
+    background-image: url("/templates/images/pic_left.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+.container_body_profile{
+    /*background-image: linear-gradient(to right, #6bb88f , #392cc8, #ee69f3, #f26649);*/
+    background-image: url("/templates/images/pic_right.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+.container.image{
+    display:flex;
+
+}
+.container.image p{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Be VietNam Pro', sans-serif;
+    margin-top:15px;
+    margin-left:1%;
+}
+.container_nav_help{
+    width:160px;
+}
+.container_body_title{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 15%;
+}
+.container_body_title h2{
+    font-family: 'Be VietNam Pro', sans-serif;
+}
+.container_body_title p{
+    font-size:10px;
+    font-family: 'Be VietNam Pro', sans-serif;
+}
+
+.form_login{
+    width: 450px;
+    margin: 80px auto 100px auto;
+    padding: 30px 20px;
+    background: #f4f7f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+
+    
+}
+
+.signin{
+    display:block;
+}
+
+.form-login-btn{
+    width: 100%;
+    padding: 5px 0px;
+    /* background: #27ae60; */
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.form_login.container form {
+    line-height: 2;
+
+}
+.form-login-forgot-password{
+    display: flex;
+    justify-content: space-between;
+}
+.btn.btn-primary{
+    width:100%;
+    border-radius: 10px;;
+}
+.form_check{
+    padding: 0;
+}
+
+.mb-3.form-check{
+    border-top:1px solid rgba(222, 218, 218, 0.5);;
+    margin-top: 15px;
+    
+}
+.mb-3-password{
+    width:100%;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    display: flex;
+    border:1px solid #ced4da;
+}
+.mb-3-password input{
+    width:98%;
+}
+.login_input_show{
+    padding: 4px 2px;
+    display: block;
+}
+.login_input_hidden{
+    padding: 4px 2px;
+    display:none;
+}
+
+.tille-signin{  
+    font-size: 15px;   
+    color: #e2d4d4;     
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    width:60px;
+    
+}
+
+.tille-signin p{
+    padding:2px 10px;
+    background-color: #f4f7f8;
+    margin-bottom: 0;
+}
+.signin_social{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    right:10px;
+}
+
+.signin_not_have_account{
+    margin-top: 20px;
+}
+
+
+
+.tille-signup{  
+    font-size: 15px;   
+    color: #e2d4d4;     
+    position: relative;
+    bottom: 15px;
+    left: 150px;
+    width:60px;
+    
+}
+.tille-signup p{
+    padding:2px 10px;
+    background-color: #f4f7f8;
+    margin-bottom: 0;
+}
+.signup_social{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    right:10px;
+}
+
+.signup_input_show{
+    padding: 4px 2px;
+    display: block;
+}
+.signup_input_hidden{
+    padding: 4px 2px;
+    display:none;
+}
+
+.signup_input_show-re-reg{
+    padding: 4px 2px;
+    display: block;
+}
+.signup_input_hidden-re-reg{
+    padding: 4px 2px;
+    display:none;
+}
+
+
+.fill_tel{
+    display:block;
+    margin:185px;
+}
+
+
+.form_fill_tel_content_input{
+    margin-bottom:10px;
+}
+.form_fill_tel_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
+
+.fill_code{
+    display:block;
+    margin:185px;
+}
+
+
+.form_fill_code_content_input{
+    margin-bottom:10px;
+}
+.form_fill_code_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
+
+.fill_new_password{
+    display:block;
+}
+
+
+
+.form_fill_new_password_content_input{
+    margin-bottom:10px;
+}
+.form_fill_new_password_content_input input{
+    border-radius: 0.25rem;
+    height:40px;
+    border:1px solid #ced4da;
+}
+
+
+.register{
+    display: block;
+}
+
+
+
+.block_info_image{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/templates/images/pic_right.jpg');
+    background-size: cover;
+
+}
+.block_image{
+    width: 100%;
+    height: 655px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_logo_image{
+    text-align: center;
+}
+.block_logo_image img{
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+
+}
+
+.block_logo_slogan p{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+    color: #151514;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:15px;
+}
+
+.block_image_container{
+    width:80%;
+    height:auto;
+    background-color: rgba(255,255,255,0.2);
+    margin-top:20%;
+    border-radius:15px;
+}

@@ -1,0 +1,370 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+
+body{
+    margin: 0;
+
+}
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: rgb(36, 36, 39);
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa !important
+}
+
+.detail_form_info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form_login.profile_user_container{
+    width:700px;
+    height:100%;
+    margin: 80px auto 100px auto;
+    padding: 30px 20px;
+    background: #f4f7f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+.form_login.profile_user_container h3{
+    text-align: center;
+}
+.form_fill_new_password_content_input{
+    display:flex;
+    width: 100%;
+    background-color: white;
+}
+.form_fill_new_password_content_input input{
+    width:100%;
+}
+.btn-profile-change-password{
+    margin-left: 280px;
+    width: 145px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.btn-profile-change-password:hover{
+    background-color: #acc6ea;
+}
+.detail_info{
+    width:200%;
+    border-right:1px solid #79b0e8;
+}
+.detail_info a{
+    text-decoration: none;
+}
+.detail_author {
+    display:flex;
+    line-height: 3.5;
+}
+.detail_author input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.detail_author label{
+    color:#000;
+    font-family: 'Be VietNam Pro', sans-serif;
+    width:140px;
+    text-align: left;
+    margin-bottom: 1px ;
+    position: relative;
+    bottom:10px;
+}
+.checkoption{
+    width:100%;
+
+}
+.checkoption input{
+    width:10px;
+    height:10px;
+}
+.detail_info_image{
+    width:100%;
+    height:320px;
+    padding-left:10px;
+    
+}
+.detail_image_user{
+    display:flex;
+    flex-direction: column;
+    padding:0 10px;
+    margin-top:50%;
+    align-items: center;
+}
+.detail_info_image img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+.detail_info_image button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #79b0e8;
+    color:#fff;
+    margin-top:10px;
+    cursor: pointer;
+}
+.detail_info_image button:hover{
+    background-color: #144491;
+}
+.detail_info_submit{
+    display:flex;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+
+.detail_info_submit input{
+    width:100px;
+    height:30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.detail_info_submit a{
+    width:100px;
+    height:30px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron{
+    background-image: url("/templates/images/bg_thoitrang.jpg");
+    background-size: cover;
+    /*height: 245px;*/
+}
+.order_form{
+    padding:0 10%;
+}
+
+.btn_page{
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.active1{
+    background-color: #007bff;
+    color: #fff;
+
+}
+.card.prefix{
+    width: 260px;
+}
+
+.text-name-product{
+    font-size: 35px;
+    text-align: center;
+    color: rgba(35, 35, 33, 0.8);
+    margin-bottom:-30px ;
+    font-family: Be VietNam Pro,sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.list-group.category_block{
+    width: 100%;
+    height:245px;
+    overflow-y: scroll;
+}
+
+.card-title a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.container_search{
+    width: 300px;
+    height:300px;
+    position:absolute;
+    background-color: #fff;
+    z-index: 999;
+    top:40px;
+    border-radius: 10px;
+    overflow-y:scroll ;
+}
+
+
+.box_search{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.box_search li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    align-items: center;
+
+}
+
+.box_search.item{
+    display:flex;
+    flex-direction: row;
+}
+.item_image{
+    width:25%;
+}
+.item_image img{
+    width:50px;
+    height: 40px;
+}
+.item_title{
+    width:80%;
+    height: 40px;
+
+}
+.item_title a{
+    /* cắt chữ */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 1rem;
+
+}
+.box_search.item.hide{
+    display:none;
+}
+.card-img-top{
+    height:190px;
+}
+
+.navbar.navbar-expand-md.navbar-dark.bg-dark{
+    background-color: rgb(36, 36, 39) !important;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/*reset css*/
+div,label{margin:0;padding:0;}
+body{margin:0;}
+h1{font-size:1.5em;margin:10px;}
+/****** Style Star Rating Widget *****/
+#rating{border:none;float:left;}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover,
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+
+.btn-post-review{
+    background-color: #2d6ba9;
+    color: #fff;
+    border: 1px solid #343a40;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Be VietNam Pro','sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
